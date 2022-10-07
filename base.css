@@ -1,0 +1,170 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+    height: 150px;
+}
+
+h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.subtitulo{
+    font-family: sans-serif;
+    color: #FCB94F;
+    padding-left: 55px;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+
+}
+.menu {
+    width: 15%;
+    background-color: #daa34b;
+    padding: 10px 20px 0px;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: flex;
+    padding-top: 120px;
+}
+
+.header {
+    background-color: #e7bc77;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.content {
+    height: 555px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #e7bc77;
+    height: 130px;
+    width: 84vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-family: sans-serif;
+    color: white;
+    padding: 0 30px;
+    margin: 10px 0;
+}
+
+p{
+    font-family: sans-serif;
+    color: white;
+    padding: 0 30px; 
+    font-size: 16px;
+    margin: 2px 0;
+}
+
+
+thead{
+    background-color: #e7bc77;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+td, th{
+    padding: 0 60px 0 10px;
+    font-family: sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #f3eee5;
+}
+
+ul{
+    padding-left: 70px;
+}
+li{
+    font-family: sans-serif;
+}
+
+.tabelas{
+    display: flex;
+}
+
+span{
+    font-family: sans-serif;
+    padding: 0 0 20px 55px;
+}
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.texto{
+    font-family: sans-serif;
+    color: black;
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid #FCB94F;
+    margin: 5px 0;
+}
+
+input{
+    height: 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 2px solid #FCB94F;
+}
+
+
+button{
+    border: 1px solid #FCB94F;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.iframe{
+    display: flex;
+    flex-direction: column;
+}
